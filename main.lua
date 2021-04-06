@@ -1,7 +1,9 @@
 -- main.lua for curves
--- ctrl + L = load "write.test"
--- ctrl + S = save to "write.test"
--- ctrl + E = export evaluated path 
+-- right click to create a point 
+-- left click to move 
+-- shift left click to add or remove triggers 
+-- hightlight point end pressing delete will remove it 
+
 local Slab = require 'Slab'
 --local SlabTest = require 'SlabTest'
 local fs = require('modules/nativefs')
